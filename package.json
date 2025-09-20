@@ -1,17 +1,26 @@
 {
   "name": "internship-task-2",
   "version": "1.0.0",
+  "description": "Internship Task Document recreated with Nunjucks + Vite",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "internship",
+    "nunjucks",
+    "vite",
+    "templating"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
   "devDependencies": {
-    "glob": "^11.0.3",
+    "vite": "^5.0.0",
     "nunjucks": "^3.2.4",
-    "vite": "^7.1.6"
+    "glob": "^10.3.0"
   }
 }
